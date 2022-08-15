@@ -1,6 +1,7 @@
 :root {
   --primary-background-color-lt: #e1b4b4;
   --primary-background-color-dk: #cd9594;
+  /* b74c4d background color no opacity */
   --header-font-family: "Poppins", sans-serif;
 }
 
@@ -13,22 +14,31 @@ h6,
 p,
 .nav-link {
   font-family: var(--header-font-family);
-  color: white;
+}
+
+h2 {
+  font-size: 64px;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+p {
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
   background-color: var(--primary-background-color-dk);
   padding: 75px 10px;
+  color: white;
 }
 
 .hero h1 {
   font-weight: 500;
   font-family: "Playfair Display", serif;
-  color: white;
   font-size: 96px;
 }
 
-h2 {
+.hero h2 {
   font-size: 24px;
 }
 
@@ -45,11 +55,25 @@ h2 {
   font-weight: bold;
 }
 
-.btn-brand-light {
+.btn-brand-primary {
   background-color: white;
   opacity: 49%;
   padding: 15px 20px;
   font-size: 18px;
   line-height: 27px;
   color: black;
+}
+
+.btn-brand-secondary {
+  background-color: white;
+  border: 1px solid #b74c4d;
+  color: #b74c4d;
+  opacity: 80%;
+  padding: 15px 30px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.img-bg {
+  background-color: var(--primary-background-color-dk);
 }
