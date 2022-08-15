@@ -1,4 +1,55 @@
-h1 {
-  font-weight: 800;
-  font-family: "Dosis", sans-serif;
+:root {
+  --primary-background-color-lt: #e1b4b4;
+  --primary-background-color-dk: #cd9594;
+  --header-font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.nav-link {
+  font-family: var(--header-font-family);
+  color: white;
+}
+
+.hero {
+  background-color: var(--primary-background-color-dk);
+  padding: 75px 10px;
+}
+
+.hero h1 {
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.hero p {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.navigation {
+  background-color: var(--primary-background-color-lt);
+}
+.nav-link {
+  font-weight: bold;
+}
+
+.btn-brand-light {
+  background-color: white;
+  opacity: 49%;
+  padding: 15px 20px;
+  font-size: 18px;
+  line-height: 27px;
+  color: black;
 }
